@@ -24,5 +24,5 @@ public class ErrroReceiver {
 	@RabbitHandler
 	public void process(String msg){
 		System.out.println("---------error----------日志:"+msg);
-	}
-}
+	}}
+

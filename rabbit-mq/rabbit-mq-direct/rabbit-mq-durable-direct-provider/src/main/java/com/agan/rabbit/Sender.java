@@ -22,6 +22,7 @@ public class Sender {
 	
 	public void send(int n) throws InterruptedException{
 		String msg="hello:"+n;
+		this.rabbitTemplate.convertAndSend(this.exchange,"log.info.routing.key", msg);
 		this.rabbitTemplate.convertAndSend(this.exchange,"log.error.routing.key", msg);
 		System.out.println(msg);
 	}

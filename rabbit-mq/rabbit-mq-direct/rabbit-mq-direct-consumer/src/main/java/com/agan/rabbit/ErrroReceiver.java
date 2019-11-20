@@ -24,5 +24,6 @@ public class ErrroReceiver {
 	@RabbitHandler
 	public void process(String msg){
 		System.out.println("接收到ERROR日志:"+msg);
+		//throw new RuntimeException();
 	}
 }
