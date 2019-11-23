@@ -24,7 +24,7 @@
     </dependencies>
 
     <modules>
-<!--        <module>01/agan-boot-commons</module>-->
+        <module>agan-boot-commons</module>
 
     </modules>
 
@@ -33,6 +33,16 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.agan.boot.ServerApplication</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
