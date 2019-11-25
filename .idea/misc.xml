@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/agan-boot-config/pom.xml" />
+        <option value="$PROJECT_DIR$/agan-boot-config-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/agan-boot-log/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/agan-boot-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/agan-boot-async/pom.xml" />
+        <option value="$PROJECT_DIR$/agan-boot-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/agan-boot-response/pom.xml" />
+        <option value="$PROJECT_DIR$/02/agan-boot-ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/02/agan-boot-ioc-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/02/agan-boot-ioc-factories/pom.xml" />
+        <option value="$PROJECT_DIR$/02/agan-boot-ioc-factories-core/pom.xml" />
+        <option value="$PROJECT_DIR$/02/agan-boot-ioc-import/pom.xml" />
+        <option value="$PROJECT_DIR$/02/agan-boot-ioc-scan/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

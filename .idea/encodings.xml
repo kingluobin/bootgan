@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02/agan-boot-ioc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02/agan-boot-ioc-configuration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02/agan-boot-ioc-factories" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02/agan-boot-ioc-factories-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02/agan-boot-ioc-import" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02/agan-boot-ioc-scan" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agan-boot-async" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agan-boot-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agan-boot-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agan-boot-config-yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agan-boot-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agan-boot-response" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agan-boot-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/agan-boot-async/agan-boot-async.iml" filepath="$PROJECT_DIR$/agan-boot-async/agan-boot-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agan-boot-commons/agan-boot-commons.iml" filepath="$PROJECT_DIR$/agan-boot-commons/agan-boot-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/agan-boot-ioc/agan-boot-ioc.iml" filepath="$PROJECT_DIR$/02/agan-boot-ioc/agan-boot-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/agan-boot-ioc-configuration/agan-boot-ioc-configuration.iml" filepath="$PROJECT_DIR$/02/agan-boot-ioc-configuration/agan-boot-ioc-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/agan-boot-ioc-factories/agan-boot-ioc-factories.iml" filepath="$PROJECT_DIR$/02/agan-boot-ioc-factories/agan-boot-ioc-factories.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/agan-boot-ioc-factories-core/agan-boot-ioc-factories-core.iml" filepath="$PROJECT_DIR$/02/agan-boot-ioc-factories-core/agan-boot-ioc-factories-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/agan-boot-ioc-import/agan-boot-ioc-import.iml" filepath="$PROJECT_DIR$/02/agan-boot-ioc-import/agan-boot-ioc-import.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/agan-boot-ioc-scan/agan-boot-ioc-scan.iml" filepath="$PROJECT_DIR$/02/agan-boot-ioc-scan/agan-boot-ioc-scan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agan-boot-response/agan-boot-response.iml" filepath="$PROJECT_DIR$/agan-boot-response/agan-boot-response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agan-boot-swagger/agan-boot-swagger.iml" filepath="$PROJECT_DIR$/agan-boot-swagger/agan-boot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agan-boot-config/boot-config.iml" filepath="$PROJECT_DIR$/agan-boot-config/boot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agan-boot-config-yml/boot-config-yml.iml" filepath="$PROJECT_DIR$/agan-boot-config-yml/boot-config-yml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agan-boot-log/boot-log.iml" filepath="$PROJECT_DIR$/agan-boot-log/boot-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootgan.iml" filepath="$PROJECT_DIR$/bootgan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-consumer/rabbit-mq-ack-direct-consumer.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-consumer/rabbit-mq-ack-direct-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-provider/rabbit-mq-ack-direct-provider.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-provider/rabbit-mq-ack-direct-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/rabbit-mq-direct-consumer.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/rabbit-mq-direct-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/rabbit-mq-direct-provider.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/rabbit-mq-direct-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-consumer/rabbit-mq-durable-direct-consumer.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-consumer/rabbit-mq-durable-direct-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-provider/rabbit-mq-durable-direct-provider.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-provider/rabbit-mq-durable-direct-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/rabbit-mq-fanout-consumer.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/rabbit-mq-fanout-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/rabbit-mq-fanout-provider.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/rabbit-mq-fanout-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/rabbit-mq-hello.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/rabbit-mq-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/rabbit-mq-topic-consumer.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/rabbit-mq-topic-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/rabbit-mq-topic-provider.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/rabbit-mq-topic-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
