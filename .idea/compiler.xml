@@ -6,20 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rabbit-mq-fanout-provider" />
-        <module name="agan-boot-commons" />
-        <module name="rabbit-mq-durable-direct-provider" />
+        <module name="agan-boot-response" />
         <module name="agan-boot-ioc-factories-core" />
+        <module name="rabbit-mq-durable-direct-provider" />
         <module name="agan-boot-ioc" />
         <module name="boot-config" />
-        <module name="rabbit-mq-direct-provider" />
+        <module name="agan-boot-ioc-scan" />
+        <module name="web" />
         <module name="boot-config-yml" />
         <module name="rabbit-mq-ack-direct-provider" />
         <module name="rabbit-mq-topic-provider" />
-        <module name="agan-boot-async" />
+        <module name="rabbit-mq-fanout-provider" />
         <module name="rabbit-mq-durable-direct-consumer" />
-        <module name="agan-boot-ioc-configuration" />
-        <module name="agan-boot-ioc-scan" />
+        <module name="boot-log" />
         <module name="rabbit-mq-direct-consumer" />
         <module name="agan-boot-swagger" />
         <module name="rabbit-mq-ack-direct-consumer" />
@@ -27,43 +26,44 @@
         <module name="rabbit-mq-hello" />
         <module name="rabbit-mq-fanout-consumer" />
         <module name="rabbit-mq-topic-consumer" />
-        <module name="boot-log" />
-        <module name="web" />
-        <module name="agan-boot-response" />
+        <module name="agan-boot-commons" />
+        <module name="rabbit-mq-direct-provider" />
+        <module name="agan-boot-async" />
+        <module name="agan-boot-ioc-configuration" />
         <module name="agan-boot-ioc-import" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="agan-boot-async" target="1.6" />
-      <module name="agan-boot-commons" target="1.6" />
-      <module name="agan-boot-ioc" target="1.6" />
-      <module name="agan-boot-ioc-configuration" target="1.6" />
-      <module name="agan-boot-ioc-factories" target="1.6" />
-      <module name="agan-boot-ioc-factories-core" target="1.6" />
-      <module name="agan-boot-ioc-import" target="1.6" />
-      <module name="agan-boot-ioc-scan" target="1.6" />
-      <module name="agan-boot-response" target="1.6" />
-      <module name="agan-boot-swagger" target="1.6" />
-      <module name="boot-config" target="1.6" />
-      <module name="boot-config-yml" target="1.6" />
-      <module name="boot-log" target="1.6" />
-      <module name="bootgan" target="1.6" />
-      <module name="rabbit-mq" target="1.6" />
-      <module name="rabbit-mq-ack-direct-consumer" target="1.6" />
-      <module name="rabbit-mq-ack-direct-provider" target="1.6" />
-      <module name="rabbit-mq-direct" target="1.6" />
-      <module name="rabbit-mq-direct-consumer" target="1.6" />
-      <module name="rabbit-mq-direct-provider" target="1.6" />
-      <module name="rabbit-mq-durable-direct-consumer" target="1.6" />
-      <module name="rabbit-mq-durable-direct-provider" target="1.6" />
-      <module name="rabbit-mq-fanout" target="1.6" />
-      <module name="rabbit-mq-fanout-consumer" target="1.6" />
-      <module name="rabbit-mq-fanout-provider" target="1.6" />
-      <module name="rabbit-mq-hello" target="1.6" />
-      <module name="rabbit-mq-topic" target="1.6" />
-      <module name="rabbit-mq-topic-consumer" target="1.6" />
-      <module name="rabbit-mq-topic-provider" target="1.6" />
-      <module name="web" target="1.6" />
+    <bytecodeTargetLevel target="8">
+      <module name="agan-boot-async" target="1.8" />
+      <module name="agan-boot-commons" target="1.8" />
+      <module name="agan-boot-ioc" target="1.8" />
+      <module name="agan-boot-ioc-configuration" target="1.8" />
+      <module name="agan-boot-ioc-factories" target="1.8" />
+      <module name="agan-boot-ioc-factories-core" target="1.8" />
+      <module name="agan-boot-ioc-import" target="1.8" />
+      <module name="agan-boot-ioc-scan" target="1.8" />
+      <module name="agan-boot-response" target="1.8" />
+      <module name="agan-boot-swagger" target="1.8" />
+      <module name="boot-config" target="1.8" />
+      <module name="boot-config-yml" target="1.8" />
+      <module name="boot-log" target="1.8" />
+      <module name="bootgan" target="1.8" />
+      <module name="rabbit-mq" target="1.8" />
+      <module name="rabbit-mq-ack-direct-consumer" target="1.8" />
+      <module name="rabbit-mq-ack-direct-provider" target="1.8" />
+      <module name="rabbit-mq-direct" target="1.5" />
+      <module name="rabbit-mq-direct-consumer" target="1.8" />
+      <module name="rabbit-mq-direct-provider" target="1.8" />
+      <module name="rabbit-mq-durable-direct-consumer" target="1.8" />
+      <module name="rabbit-mq-durable-direct-provider" target="1.8" />
+      <module name="rabbit-mq-fanout" target="1.5" />
+      <module name="rabbit-mq-fanout-consumer" target="1.8" />
+      <module name="rabbit-mq-fanout-provider" target="1.8" />
+      <module name="rabbit-mq-hello" target="1.8" />
+      <module name="rabbit-mq-topic" target="1.5" />
+      <module name="rabbit-mq-topic-consumer" target="1.8" />
+      <module name="rabbit-mq-topic-provider" target="1.8" />
+      <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
