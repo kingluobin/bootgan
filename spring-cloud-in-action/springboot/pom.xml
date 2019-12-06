@@ -8,7 +8,6 @@
   <artifactId>springboot</artifactId>
   <packaging>pom</packaging>
   <modules>
-  	<module>springboot-helloworld</module>
   	<module>springboot-helloworld-eclipse</module>
   	<module>springboot-admin</module>
   </modules>

@@ -14,3 +14,4 @@ doc/**/*.txt
 *.jar
 **/target/
 /.idea/**
+/.idea/

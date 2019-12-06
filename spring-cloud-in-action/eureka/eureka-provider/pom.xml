@@ -9,7 +9,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>eureka-provider</artifactId>
-	<name>eureka-server</name>
+	<name>eureka-provider</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,6 +29,51 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<!-- 添加docker maven插件 -->
+			<plugin>
+				<groupId>com.spotify</groupId>
+				<artifactId>docker-maven-plugin</artifactId>
+				<version>1.1.1</version>
+				<configuration>
+					<!-- 推送到指定的仓库 -->
+					<registryUrl>localregistry:5000</registryUrl>
+					<!-- 开启docker远程API的端口 -->
+					<dockerHost>http://localregistry:2375</dockerHost>
+					<!-- 指定镜像名称 格式：仓库域名：端口/镜像名字：镜像的版本号 -->
+					<imageName>localregistry:5000/${project.artifactId}:${project.version}</imageName>
+					<!-- 指定基础镜像 类似dockerfile的FROM指令 -->
+					<baseImage>java:8</baseImage>
+					<!-- 配置容器启动后，执行什么命令，等于与 dockerfile的ENTRYPOINT -->
+					<entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+					<!-- 为dockerde tag指定版本号、latest -->
+					<imageTags>
+						<imageTag>${project.version}</imageTag>
+						<imageTag>latest</imageTag>
+					</imageTags>
+					<!-- 是否有push的功能 true代表有 -->
+					<pushImage>true</pushImage>
+					<!-- push后是否覆盖已存在的标签镜像 -->
+					<forceTags>true</forceTags>
+					<!-- 复制jar包到docker容器指定的目录 -->
+					<resources>
+						<resource>
+							<targetPath>/</targetPath>
+							<!-- 指定要复制jar包的根目录，${project.build.directory}代表 target的目录 -->
+							<directory>${project.build.directory}</directory>
+							<!-- 指定要复制的文件，${project.build.finalName}代表打包后的jar -->
+							<include>${project.build.finalName}.jar</include>
+						</resource>
+					</resources>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>7</source>
+					<target>7</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
